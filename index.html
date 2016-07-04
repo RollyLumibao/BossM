@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Slider</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+
+<script type="text/javascript">
+	
+	
+
+	$('#slider').cycle({
+		fx:     'scrollHorz',
+		next:    '#next',
+		prev:    '#prev',
+		pager:    '#pager',
+		timeout:   3000,
+		speed:     900,
+	});
+
+		
+</script>
+</head>
+<body>
+<div id="container">
+
+	<div id="pager"></div>
+	<div id="pause">&asymp;</div>
+	<div id="play">&delta;</div>
+	<div id="next">&rang;</div>
+	<div id="prev">&lang;</div>
+
+	<div id="slider">
+		<div class="items">
+			<img src="Images/img1.jpg">
+			<div class="info">
+				<h2>The Secret Gathering</h2>
+				<p>This is the moment, captured in time</p>
+			</div> <!-- end of info -->
+		</div>	<!-- end of items -->
+
+		<div class="items">
+			<img src="Images/img2.jpg">
+			<div class="info">
+				<h2>The Secret Gathering</h2>
+				<p>This is the moment, captured in time</p>
+			</div> <!-- end of info -->
+		</div>	<!-- end of items -->
+
+		<div class="items">
+			<img src="Images/img3.jpg">
+			<div class="info">
+				<h2>The Secret Gathering</h2>
+				<p>This is the moment, captured in time</p>
+			</div> <!-- end of info -->
+		</div>	<!-- end of items -->
+
+		<div class="items">
+			<img src="Images/img4.jpg">
+			<div class="info">
+				<h2>The Secret Gathering</h2>
+				<p>This is the moment, captured in time</p>
+			</div> <!-- end of info -->
+		</div>	<!-- end of items -->
+
+		<div class="items">
+			<img src="Images/img5.jpg">
+			<div class="info">
+				<h2>The Secret Gathering</h2>
+				<p>This is the moment, captured in time</p>
+			</div> <!-- end of info -->
+		</div>	<!-- end of items -->
+
+	</div><!-- end of slider -->
+</div><!-- end of container  -->
+</body>
+</html>
